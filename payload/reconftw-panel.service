@@ -1,0 +1,19 @@
+[Unit]
+Description=reconFTW Control Panel
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/reconftw-panel
+EnvironmentFile=/root/reconftw-panel/.env
+ExecStart=/root/reconftw-panel/venv/bin/python3 -u /root/reconftw-panel/app.py
+Restart=always
+RestartSec=5
+KillMode=process
+Environment=PYTHONUNBUFFERED=1
+Environment=GOROOT=/usr/lib/go-1.26
+Environment=GOPATH=/root/go
+Environment=PATH=/usr/lib/go-1.26/bin:/root/go/bin:/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

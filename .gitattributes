@@ -1,0 +1,10 @@
+# Treat the packed panel as HTML/JS/CSS so GitHub language stats stay honest.
+payload/templates/*.html linguist-language=HTML
+payload/static/*.svg linguist-detectable=true
+*.bat linguist-language=Batchfile
+reconftw_setup.py linguist-language=Python
+payload/*.py linguist-language=Python
+docs/** linguist-documentation
+*.png linguist-documentation
+*.md linguist-documentation
+LICENSE linguist-documentation
