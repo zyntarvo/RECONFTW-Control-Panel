@@ -9,6 +9,8 @@
 <p align="center">
   <a href="https://t.me/zyntarvo"><img src="https://img.shields.io/badge/Telegram-@zyntarvo-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @zyntarvo"></a>
   &nbsp;
+  <a href="https://www.youtube.com/watch?v=9uVSPqi0cSw"><img src="https://img.shields.io/badge/YouTube-Watch%20Demo-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube demo"></a>
+  &nbsp;
   <img src="https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04%20%7C%2026.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
   &nbsp;
   <img src="https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -275,6 +277,7 @@ payload/               → panel uploaded to /root/reconftw-panel
   templates/           → login.html + index.html
   static/              → logo.svg, favicon.svg
 docs/screenshots/      → UI shots used in this README
+docs/video-preview.png → YouTube demo thumbnail
 ```
 
 On the server after INSTALL:
@@ -296,9 +299,23 @@ If this panel saved you time and you want to say thank you, USDT on **Ethereum (
 
 No pressure. Use the tool, learn, and pass it on.
 
+## Watch the demo
+
+Full walkthrough of the installer and every menu in the panel:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9uVSPqi0cSw">
+    <img src="docs/video-preview.png" alt="Watch the reconFTW Control Panel demo on YouTube" width="720">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9uVSPqi0cSw">https://www.youtube.com/watch?v=9uVSPqi0cSw</a>
+</p>
+
 ## Contact
 
-Telegram: [@zyntarvo](https://t.me/zyntarvo)
+Telegram: [@zyntarvo](https://t.me/zyntarvo) · YouTube: [reconFTW Control Panel demo](https://www.youtube.com/watch?v=9uVSPqi0cSw)
 
 ## Credits
 
